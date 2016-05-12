@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\HelloWorldScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="MyLoading.cpp" />
+    <ClCompile Include="MyBackgroundScnene.cpp" />
+    <ClCompile Include="MyBackground.cpp" />
+    <ClCompile Include="MyMenu.cpp" />
+    <ClCompile Include="MyExitLayer.cpp" />
+    <ClCompile Include="MyPlayLayer.cpp" />
+    <ClCompile Include="MyPlayScene.cpp" />
+    <ClCompile Include="MyPlayMenu.cpp" />
+    <ClCompile Include="Mysprite.cpp" />
+    <ClCompile Include="Zanting.cpp" />
+    <ClCompile Include="MyAboutLayer.cpp" />
+    <ClCompile Include="MyHelpLayer.cpp" />
+    <ClCompile Include="MySetLayer.cpp" />
+    <ClCompile Include="MyRankLayer.cpp" />
+    <ClCompile Include="GameOver.cpp" />
+    <ClCompile Include="MyActiveLayer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\HelloWorldScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MyLoading.h" />
+    <ClInclude Include="MyBackground.h" />
+    <ClInclude Include="MyBackgroundScnene.h" />
+    <ClInclude Include="MyMenu.h" />
+    <ClInclude Include="MyExitLayer.h" />
+    <ClInclude Include="MyPlayLayer.h" />
+    <ClInclude Include="MyPlayScene.h" />
+    <ClInclude Include="MyPlayMenu.h" />
+    <ClInclude Include="Mysprite.h" />
+    <ClInclude Include="Zanting.h" />
+    <ClInclude Include="MyAboutLayer.h" />
+    <ClInclude Include="MyHelpLayer.h" />
+    <ClInclude Include="MySetLayer.h" />
+    <ClInclude Include="MyRankLayer.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="MyActiveLayer.h" />
+  </ItemGroup>
+</Project>

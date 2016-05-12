@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="25" height="15" tilewidth="32" tileheight="32">
+ <tileset firstgid="1" name="background" tilewidth="32" tileheight="32">
+  <image source="background.jpg" width="800" height="480"/>
+ </tileset>
+ <layer name="块层 1" width="25" height="15">
+  <data encoding="base64" compression="zlib">
+   eJy109diCAYAAMAERY2WDntGiBgRiYSYMYKYQWxJJBGCxAxq1Wprb60OauteRpdNq4PWpgNdZocuW6nzER7uEy4wICAg8D4rRWnKUJZylKcCFQmiEsFUpgohVCWUalSnBjUJoxbh1CaCSOoQRTR1qUcM9WlAQxrRmCbE0pRmNKcFcbSkFa2Jpw1taUd7OtCRBDrRmS4k0pVudKcHPelFb/qQRDIp9CWVNNLpRwb9GUAmAxnEYLLIZghDGcZwRjCSHEYxmjE8wVjGMZ4JTORJJjGZKUxlGk/xNM8wnRnMZBazmcNc5jGfBSxkEYtZwrM8x1Ke5wVe5CWWsZyXWcFKVrGaNaxlHet5hVd5jdd5gzd5i7d5h3d5jw1sZBObeZ8P+JCP+JgtbGUb29nBTnaxmz18wqfs5TM+5wu+ZB/7+YqvOcBBDnGYIxzlGMc5wTd8y3d8z0lOcZof+JGf+JlfOMNZznGeC1zkV37jd/7gEn/yF3/zD/9ymStc5RrXucFNbvEft7nD/9zLGUgucpOHB8hLPvLzIAUoSCEK8xAPU4SiPMKjPMbjFKM4JShJKUpThrKUozwVqEgQlQimMlUIoSqhVKM6NahJGLUIpzYRRFKHKKKpSz1iqE8DGtKIxjQhlqY0ozktiKMlrWhNPG1oSzva04GOJNCJznQhka50ozs96EkvetOHJJJJoS+ppJFOPzLozwAyGcggBpNFNkMYyjCGM4KR5DCK0YzhLkvvmrE=
+  </data>
+ </layer>
+ <objectgroup name="road">
+  <object name="qidian" x="0" y="320" width="30" height="24"/>
+ </objectgroup>
+</map>

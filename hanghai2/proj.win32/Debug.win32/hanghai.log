@@ -1,0 +1,105 @@
+﻿生成启动时间为 9/17/2015 7:20:32 PM。
+     1>项目“F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\hanghai.vcxproj”在节点 4 上(Build 个目标)。
+     1>ClCompile:
+         F:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\..\..\..\cocos2dx" /I"F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\..\..\..\cocos2dx\include" /I"F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\..\..\..\cocos2dx\platform\win32" /I"F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\..\..\..\external" /I"F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\..\..\..\CocosDenshion\include" /I"F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\..\..\..\extensions" /I..\Classes /I.. /I"F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\\" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\HelloWorldScene.cpp GameOver.cpp main.cpp MyAboutLayer.cpp MyActiveLayer.cpp MyBackground.cpp MyBackgroundScnene.cpp MyExitLayer.cpp MyHelpLayer.cpp MyLoading.cpp MyMenu.cpp MyPlayLayer.cpp MyPlayMenu.cpp MyPlayScene.cpp MyRankLayer.cpp MySetLayer.cpp Mysprite.cpp Zanting.cpp
+         Zanting.cpp
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\mymenu.h(10): warning C4005: “BG_MUSIC”: 宏重定义
+                 f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myranklayer.h(5) : 参见“BG_MUSIC”的前一个定义
+         Mysprite.cpp
+         MySetLayer.cpp
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myranklayer.h(5): warning C4005: “BG_MUSIC”: 宏重定义
+                 f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\mybackgroundscnene.h(6) : 参见“BG_MUSIC”的前一个定义
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\mymenu.h(10): warning C4005: “BG_MUSIC”: 宏重定义
+                 f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myranklayer.h(5) : 参见“BG_MUSIC”的前一个定义
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\mysetlayer.cpp(56): warning C4305: “参数”: 从“double”到“float”截断
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\mysetlayer.cpp(69): warning C4305: “参数”: 从“double”到“float”截断
+         MyRankLayer.cpp
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myranklayer.h(5): warning C4005: “BG_MUSIC”: 宏重定义
+                 f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\mybackgroundscnene.h(6) : 参见“BG_MUSIC”的前一个定义
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myranklayer.cpp(40): warning C4305: “参数”: 从“double”到“float”截断
+         MyPlayScene.cpp
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\mymenu.h(10): warning C4005: “BG_MUSIC”: 宏重定义
+                 f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myranklayer.h(5) : 参见“BG_MUSIC”的前一个定义
+         MyPlayMenu.cpp
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\mymenu.h(10): warning C4005: “BG_MUSIC”: 宏重定义
+                 f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myranklayer.h(5) : 参见“BG_MUSIC”的前一个定义
+         MyPlayLayer.cpp
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\mymenu.h(10): warning C4005: “BG_MUSIC”: 宏重定义
+                 f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myranklayer.h(5) : 参见“BG_MUSIC”的前一个定义
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myplaylayer.cpp(121): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myplaylayer.cpp(252): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myplaylayer.cpp(295): warning C4018: “<”: 有符号/无符号不匹配
+         MyMenu.cpp
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myranklayer.h(5): warning C4005: “BG_MUSIC”: 宏重定义
+                 f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\mybackgroundscnene.h(6) : 参见“BG_MUSIC”的前一个定义
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\mymenu.h(10): warning C4005: “BG_MUSIC”: 宏重定义
+                 f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myranklayer.h(5) : 参见“BG_MUSIC”的前一个定义
+         MyLoading.cpp
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\mymenu.h(10): warning C4005: “BG_MUSIC”: 宏重定义
+                 f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myranklayer.h(5) : 参见“BG_MUSIC”的前一个定义
+         MyHelpLayer.cpp
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myranklayer.h(5): warning C4005: “BG_MUSIC”: 宏重定义
+                 f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\mybackgroundscnene.h(6) : 参见“BG_MUSIC”的前一个定义
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\mymenu.h(10): warning C4005: “BG_MUSIC”: 宏重定义
+                 f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myranklayer.h(5) : 参见“BG_MUSIC”的前一个定义
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myhelplayer.cpp(27): warning C4305: “参数”: 从“double”到“float”截断
+         MyExitLayer.cpp
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myranklayer.h(5): warning C4005: “BG_MUSIC”: 宏重定义
+                 f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\mybackgroundscnene.h(6) : 参见“BG_MUSIC”的前一个定义
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\mymenu.h(10): warning C4005: “BG_MUSIC”: 宏重定义
+                 f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myranklayer.h(5) : 参见“BG_MUSIC”的前一个定义
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myexitlayer.cpp(28): warning C4305: “参数”: 从“double”到“float”截断
+         MyBackgroundScnene.cpp
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\mymenu.h(10): warning C4005: “BG_MUSIC”: 宏重定义
+                 f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myranklayer.h(5) : 参见“BG_MUSIC”的前一个定义
+         MyBackground.cpp
+         MyActiveLayer.cpp
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myactivelayer.cpp(21): warning C4305: “参数”: 从“double”到“float”截断
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myactivelayer.cpp(29): warning C4305: “参数”: 从“double”到“float”截断
+         MyAboutLayer.cpp
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myaboutlayer.cpp(28): warning C4305: “参数”: 从“double”到“float”截断
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myaboutlayer.cpp(42): warning C4305: “参数”: 从“double”到“float”截断
+         main.cpp
+         GameOver.cpp
+     1>f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\mymenu.h(10): warning C4005: “BG_MUSIC”: 宏重定义
+                 f:\cocos2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\myranklayer.h(5) : 参见“BG_MUSIC”的前一个定义
+         HelloWorldScene.cpp
+         AppDelegate.cpp
+         正在生成代码...
+       PreLinkEvent:
+         if not exist "F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\Debug.win32\" mkdir "F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\Debug.win32\"
+         xcopy /Y /Q "F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\Debug.win32\"
+         :VCEnd
+         2 File(s) copied
+       Link:
+         F:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\Debug.win32\hanghai.exe" /INCREMENTAL /NOLOGO /LIBPATH:"F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\Debug.win32\hanghai.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\Debug.win32\hanghai.lib" /MACHINE:X86 /SAFESEH Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\GameOver.obj
+         Debug.win32\main.obj
+         Debug.win32\MyAboutLayer.obj
+         Debug.win32\MyActiveLayer.obj
+         Debug.win32\MyBackground.obj
+         Debug.win32\MyBackgroundScnene.obj
+         Debug.win32\MyExitLayer.obj
+         Debug.win32\MyHelpLayer.obj
+         Debug.win32\MyLoading.obj
+         Debug.win32\MyMenu.obj
+         Debug.win32\MyPlayLayer.obj
+         Debug.win32\MyPlayMenu.obj
+         Debug.win32\MyPlayScene.obj
+         Debug.win32\MyRankLayer.obj
+         Debug.win32\MySetLayer.obj
+         Debug.win32\Mysprite.obj
+         Debug.win32\Zanting.obj
+         "F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\Debug.win32\libcocos2d.lib"
+         "F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\Debug.win32\libCocosDenshion.lib"
+         "F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\Debug.win32\libExtensions.lib"
+         "F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\Debug.win32\libBox2D.lib"
+         "F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\Debug.win32\libchipmunk.lib"
+     1>AppDelegate.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+         hanghai.vcxproj -> F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\Debug.win32\hanghai.exe
+     1>已完成生成项目“F:\CoCoS2d\cocos2d-x-2.2.6\projects\hanghai2\proj.win32\hanghai.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:32.32
